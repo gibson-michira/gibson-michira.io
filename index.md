@@ -1,5 +1,4 @@
-##Hello there
-:wave:
+Hello there
 My name is Gibson, Michira. 😄
 
 I'm a young DFIR analyst, and a bit of a software dev...sort of.

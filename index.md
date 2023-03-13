@@ -1,5 +1,6 @@
-Hello there
-My name is Gibson, Michira. 😄
+# Hello there!
+
+### I'm Gibson Michira. 😄
 
 I'm a young DFIR analyst, and a bit of a software dev...sort of.
 This blog of mine, is to more or less to:

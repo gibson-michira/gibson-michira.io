@@ -10,6 +10,12 @@ In order to fully appreciate the Velociraptor Query Language, it is important to
 
 ![Basic Structure](VQLbody.png)
 
+<img
+  src="VQLbody.png"
+  alt="VQLBody"
+  title="Basic Structure"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 The above image shows the most basic structure of a VQL query. For the purpose of this scenario, we will use the keywords:
 
 1. **Query Header** to reference the first portion of the query (1).

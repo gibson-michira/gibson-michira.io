@@ -7,7 +7,9 @@ In addition to data collection, VQL can also be used to create continuous monito
 
 ## The Basics
 In order to fully appreciate the Velociraptor Query Language, it is important to understand the syntax and basic structure of a query. If you are already familiar with SQL (Structured Query Language), VQL will be more familiar and easy to pick up. First, lets look at the basic structure of a VQL query:
-![My Image](VQLbody.png)
+
+![Basic Structure](VQLbody.png)
+
 The above image shows the most basic structure of a VQL query. For the purpose of this scenario, we will use the keywords:
 
 1. **Query Header** to reference the first portion of the query (1).

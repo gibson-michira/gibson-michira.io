@@ -1,5 +1,5 @@
 ### Introduction to Velociraptor Query Languange (VQL)
-In the fast-paced world of cybersecurity and incident response, having the right tools and techniques can be the key to successfully detecting and responding to security threats. Velociraptor is a powerful digital forensics and incident response tool that provides a comprehensive solution for investigators and security professionals.
+In the fast-paced world of incident response, having the right tools and techniques can be the key to successfully detecting and responding to security threats. Velociraptor is a powerful digital forensics and incident response tool that provides a comprehensive solution for investigators and security professionals.
 
 One of the key features of Velociraptor is Velociraptor Query Language (VQL), a framework for creating highly customized artifacts that allow you to collect, query, and monitor almost any aspect of an endpoint, groups of endpoints, or an entire network. VQL enables you to gather information about systems and devices, including operating system details, running processes, file systems, and network connections.
 

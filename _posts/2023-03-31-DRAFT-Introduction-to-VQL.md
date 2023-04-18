@@ -9,7 +9,7 @@ In addition to data collection, VQL can also be used to create continuous monito
 In order to fully appreciate the Velociraptor Query Language, it is important to understand the syntax and basic structure of a query. If you are already familiar with SQL (Structured Query Language), VQL will be more familiar and easy to pick up. First, lets look at the basic structure of a VQL query:
 
 <img
-  src="../images/VQLbody.png"
+  src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/VQLbody.png"
   alt="Velociraptor Syntax Body"
   title="Basic Structure"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -83,7 +83,7 @@ Before we setup a local instance to run with, you can execute this command below
 .\Velociraptor.exe -h
 ```
 <img
-  src="../images/helpMenu.png"
+  src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/helpMenu.png"
   alt="Velociraptor Help Menu"
   title="Help Menu"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -92,7 +92,7 @@ The above command will show the help menu. This is useful so that you can get fa
 .\Velociraptor.exe gui
 ```
 <img
-  src="./images/veloGui.png"
+  src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/veloGui.png"
   alt="Velociraptor GUI"
   title="Velociraptor Local Instance"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -101,7 +101,7 @@ This command will start up a local instance of Velociraptor that will be hosted 
 
 > Take Note: Velociraptor uses Self Signed SSL certificates, hence, click on the Advance button and select Proceed to 127.0.0.1.
 <img
-  src="../images/selfSSL.png"
+  src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/selfSSL.png"
   alt="Self Signed SSL"
   title="Self Signed SSL"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -113,7 +113,7 @@ After that, you'll be prompted with a username and password field. The default c
 **password:`password`**           
 
 <img
-  src="../images/locInst.png"
+  src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/locInst.png"
   alt="Velociraptor WebUI"
   title="Velociraptor WebUI"
   style="display: inline-block; margin: 0 auto; max-width: 300px">

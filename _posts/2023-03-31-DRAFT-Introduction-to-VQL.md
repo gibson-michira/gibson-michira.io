@@ -12,7 +12,7 @@ In order to fully appreciate the Velociraptor Query Language, it is important to
   src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/VQLbody.png"
   alt="Velociraptor Syntax Body"
   title="Basic Structure"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;">
 
 The above image shows the most basic structure of a VQL query. For the purpose of this scenario, we will use the keywords:
 
@@ -82,29 +82,34 @@ Before we setup a local instance to run with, you can execute this command below
 ```yaml
 .\Velociraptor.exe -h
 ```
+
 <img
   src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/helpMenu.png"
   alt="Velociraptor Help Menu"
   title="Help Menu"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;">
+  
+
 The above command will show the help menu. This is useful so that you can get familiar with some arguments and options that the executable can take. Okay, now let's actual run the command we need to set up that local instance, so that we can start playing around with VQL. Execute the below command:
 ```yaml
 .\Velociraptor.exe gui
 ```
+
 <img
   src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/veloGui.png"
   alt="Velociraptor GUI"
   title="Velociraptor Local Instance"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;">
 
 This command will start up a local instance of Velociraptor that will be hosted on https://127.0.0.1:8889. Open a browser and navigate to that URL:
 
 > Take Note: Velociraptor uses Self Signed SSL certificates, hence, click on the Advance button and select Proceed to 127.0.0.1.
+
 <img
   src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/selfSSL.png"
   alt="Self Signed SSL"
   title="Self Signed SSL"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;">
 
 After that, you'll be prompted with a username and password field. The default credentials for the local instance are:
 
@@ -116,7 +121,7 @@ After that, you'll be prompted with a username and password field. The default c
   src="https://raw.githubusercontent.com/gibson-michira/gibson-michira.io/main/images/locInst.png"
   alt="Velociraptor WebUI"
   title="Velociraptor WebUI"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;">
 
 > **Take Note**: After supplying the credentials, if for some reason, the app does not log you in, simply restart the Velociraptor local instance.Navigate back to the command line, terminate the current running one:
 `CTRL + C` and re-execute the local instance command: `.\Velociraptor.exe gui`.

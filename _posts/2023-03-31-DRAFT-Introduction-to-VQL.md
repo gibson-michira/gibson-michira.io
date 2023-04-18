@@ -10,7 +10,7 @@ In order to fully appreciate the Velociraptor Query Language, it is important to
 
 <img
   src="../css/VQLbody.png"
-  alt="VQLBody"
+  alt="Velociraptor Syntax Body"
   title="Basic Structure"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
@@ -70,4 +70,54 @@ SELECT *, count() FROM info()
 
 We are not straying far from our starter query, however, for this query, we are introducing a function. The function in this case being **count()**, which, well, will count the rows of data that are collected from our plugin (not only what it can do, but for this context, that’s basically what it will do).
 
-Before we move any further, let us actually run some queries, so we can get familiar with VQL.
+Before we move any further, let us actually run some queries, so we can get familiar with VQL. For this blog, I used Velociraptor version 0.6.8, you can download the binary executable for windows from https://github.com/Velocidex/velociraptor/releases. Once you have it donwloaded, we can then begin:
+
+> I would recommend renaming the executable...or not, up to you :)
+
+> Take note that, Velociraptor can be deployed in different ways, however, we aren't looking at setting up Velociraptor for monitering. We just need a local instance to work with.
+
+> Remember to run `CMD` or `Windows Terminal` as an **Administrator**
+
+Before we setup a local instance to run with, you can execute this command below to have a look at some of the options and arguments available:
+```yaml
+.\Velociraptor.exe -h
+```
+<img
+  src="../css/helpMenu.png"
+  alt="Velociraptor Help Menu"
+  title="Help Menu"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+The above command will show the help menu. This is useful so that you can get familiar with some arguments and options that the executable can take. Okay, now let's actual run the command we need to set up that local instance, so that we can start playing around with VQL. Execute the below command:
+```yaml
+.\Velociraptor.exe gui
+```
+<img
+  src="../css/veloGui.png"
+  alt="Velociraptor GUI"
+  title="Velociraptor Local Instance"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+This command will start up a local instance of Velociraptor that will be hosted on https://127.0.0.1:8889. Open a browser and navigate to that URL:
+
+> Take Note: Velociraptor uses Self Signed SSL certificates, hence, click on the Advance button and select Proceed to 127.0.0.1.
+<img
+  src="../css/selfSSL.png"
+  alt="Self Signed SSL"
+  title="Self Signed SSL"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+After that, you'll be prompted with a username and password field. The default credentials for the local instance are:
+
+**username:`admin`**
+
+**password:`password`**           
+
+<img
+  src="../css/locInst.png"
+  alt="Velociraptor WebUI"
+  title="Velociraptor WebUI"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+> **Take Note**: After supplying the credentials, if for some reason, the app does not log you in, simply restart the Velociraptor local instance.Navigate back to the command line, terminate the current running one:
+`CTRL + C` and re-execute the local instance command: `.\Velociraptor.exe gui`.
+

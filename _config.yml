@@ -18,7 +18,8 @@ linkedin_username: "gibson-michira-78056b195"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+#theme: "minima"
+remote_theme: "dracula"
 
 rss: rss
 
